@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConcepts", "SoloLearnBasicConcepts\BasicConcepts.csproj", "{705E37B2-EAEA-4E8A-8B5A-50419338A265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalsAndLoops", "ConditionalsAndLoops\ConditionalsAndLoops.csproj", "{D87B24E2-64A8-4B3C-86AE-EA5EEF3B2036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{705E37B2-EAEA-4E8A-8B5A-50419338A265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705E37B2-EAEA-4E8A-8B5A-50419338A265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705E37B2-EAEA-4E8A-8B5A-50419338A265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705E37B2-EAEA-4E8A-8B5A-50419338A265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87B24E2-64A8-4B3C-86AE-EA5EEF3B2036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87B24E2-64A8-4B3C-86AE-EA5EEF3B2036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87B24E2-64A8-4B3C-86AE-EA5EEF3B2036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87B24E2-64A8-4B3C-86AE-EA5EEF3B2036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B91EE2F-50B6-40CA-BEC8-DE22D318D9BB}
+	EndGlobalSection
+EndGlobal
