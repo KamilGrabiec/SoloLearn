@@ -18,6 +18,10 @@ namespace ConditionalsAndLoops
                 Console.WriteLine("Yeap");
 
             }
+            else
+            {
+                Console.WriteLine("Nope");
+            }
 
         }
     }

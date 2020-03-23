@@ -12,6 +12,7 @@ namespace ConditionalsAndLoops
         {
             if (age > 0)
             {
+                //Find unmature person and assign to right group
                 if ( age < 18)
                 {
                     if (age >= 11)
@@ -23,6 +24,7 @@ namespace ConditionalsAndLoops
                         Console.WriteLine("Child");
                     }
                 }
+                //Find adult and assign to assign to right group
                 else if (age >= 65)
                 {
                     Console.WriteLine("Pensioner");

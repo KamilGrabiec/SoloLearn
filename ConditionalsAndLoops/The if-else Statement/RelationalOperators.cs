@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConditionalsAndLoops
 {
+    //Basic relational operations 
     class RelationalOperators
     {
 
