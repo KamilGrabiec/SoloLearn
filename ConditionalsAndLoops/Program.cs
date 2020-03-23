@@ -53,7 +53,7 @@ namespace ConditionalsAndLoops
             t.FindGeneration2(age5);
             t.FindGeneration2(age6);
 
-            int num = 2;
+            int num = 4;
             TheSwitch s = new TheSwitch();
             Console.WriteLine(s.TheSwitch2(num));
            

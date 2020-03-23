@@ -17,6 +17,8 @@ namespace ConditionalsAndLoops
                     return "one";
                 case 2:
                     return "two";
+                case 3: case 4:
+                    return "three or four";
                 default: return "out of range";
             }
         }
