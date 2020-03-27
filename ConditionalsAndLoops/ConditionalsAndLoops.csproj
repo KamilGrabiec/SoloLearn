@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basic Calculator\Calculator.cs" />
     <Compile Include="Break and Continue\TheBreakContinue.cs" />
     <Compile Include="Logical Operators\LogicalOperators.cs" />
     <Compile Include="The do-while Loop\The do-while Loop.cs" />

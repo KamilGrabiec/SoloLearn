@@ -92,6 +92,7 @@ namespace ConditionalsAndLoops
             BreakContinue.TheContinue();
             */
 
+            /*
             int age1 = 11;
             int age2 = 21;
             int age3 = 18;
@@ -112,6 +113,10 @@ namespace ConditionalsAndLoops
             logic.TheOr(age3);
             logic.TheOr(age4);
             logic.TheOr(age5);
+            */
+
+            Basic_Calculator.Calculator sum = new Basic_Calculator.Calculator();
+            sum.CalculateSum();
 
             Console.ReadKey();
         }
