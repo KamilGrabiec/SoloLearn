@@ -80,10 +80,38 @@ namespace ConditionalsAndLoops
             loop2.TheForLoop(increment2);
             */
 
+            /*
             int increment3 = 0;
             The_do_while_Loop DoWhileLoop = new The_do_while_Loop();
             DoWhileLoop.TheDoWhile(increment3);
+            */
 
+            /*
+            TheBreakContinue BreakContinue = new TheBreakContinue();
+            BreakContinue.TheBreak();
+            BreakContinue.TheContinue();
+            */
+
+            int age1 = 11;
+            int age2 = 21;
+            int age3 = 18;
+            int age4 = 65;
+            int age5 = -5;
+            string sex1 = "f";
+            string sex2 = "m";
+            int money1 = 0;
+            int money2 = 6000;
+            Logical_Operators.LogicalOperators logic = new Logical_Operators.LogicalOperators();
+            logic.TheAnd(age1, sex1, money1);
+            logic.TheAnd(age2, sex2, money1);
+            logic.TheAnd(age2, sex1, money1);
+            logic.TheAnd(age2, sex1, money2);
+
+            logic.TheOr(age1);
+            logic.TheOr(age2);
+            logic.TheOr(age3);
+            logic.TheOr(age4);
+            logic.TheOr(age5);
 
             Console.ReadKey();
         }

@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Break and Continue\TheBreakContinue.cs" />
+    <Compile Include="Logical Operators\LogicalOperators.cs" />
     <Compile Include="The do-while Loop\The do-while Loop.cs" />
     <Compile Include="The for Loop\TheFor.cs" />
     <Compile Include="The if-else Statement\NastedIfStatements.cs" />
@@ -58,5 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
