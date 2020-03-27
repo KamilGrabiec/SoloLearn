@@ -10,7 +10,7 @@ namespace ConditionalsAndLoops
     {
         static void Main(string[] args)
         {
-            int x = 7;
+            /*int x = 7;
             int xx = 7;
             int y = 8;
             int age1 = 9;
@@ -56,7 +56,34 @@ namespace ConditionalsAndLoops
             int num = 4;
             TheSwitch s = new TheSwitch();
             Console.WriteLine(s.TheSwitch2(num));
-           
+            */
+
+            /*
+            Console.WriteLine("");
+            Console.WriteLine("The while Loop");
+
+            int increment = 0;
+            int state1 = 1;
+            int state2 = 2;
+            While loop = new While();
+            loop.TheWhileLoop(increment, state1);
+            Console.WriteLine("Different state");
+            loop.TheWhileLoop(increment, state2);
+           */
+
+
+            /*
+            Console.WriteLine("");
+            Console.WriteLine("The for Loop");
+            TheFor loop2 = new TheFor();
+            int increment2 = 2;
+            loop2.TheForLoop(increment2);
+            */
+
+            int increment3 = 0;
+            The_do_while_Loop DoWhileLoop = new The_do_while_Loop();
+            DoWhileLoop.TheDoWhile(increment3);
+
 
             Console.ReadKey();
         }

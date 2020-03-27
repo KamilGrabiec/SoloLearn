@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="The do-while Loop\The do-while Loop.cs" />
+    <Compile Include="The for Loop\TheFor.cs" />
     <Compile Include="The if-else Statement\NastedIfStatements.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="The if-else Statement\TheIfElseIfStatement.cs" />
     <Compile Include="The if-else Statement\TheIfElseStatement.cs" />
     <Compile Include="The switch Statement\TheSwitch.cs" />
+    <Compile Include="The while Loop\While.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
