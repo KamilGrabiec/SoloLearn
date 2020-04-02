@@ -45,9 +45,11 @@
   <ItemGroup>
     <Compile Include="NamedParameters.cs" />
     <Compile Include="OptionalArguments.cs" />
+    <Compile Include="PassingArguments.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NameConvention.cs" />
+    <Compile Include="TemperatureCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
