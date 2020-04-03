@@ -32,7 +32,7 @@ namespace Methods
             Console.WriteLine(multiple.VolumeCalculator(w:4, l:6));
             */
 
-            
+            /*
             PassingArguments passingArguments = new PassingArguments();
 
             //Passing argument by value
@@ -41,10 +41,10 @@ namespace Methods
             Console.WriteLine(a);
 
             //Passing argument as reference
-            /*
-             * Pass by reference copies an argument's memory address into the formal parameter. Inside the method, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.
-              * To pass the value by reference, the ref keyword is used in both the call and the method definition:
-             */
+            //
+            //Pass by reference copies an argument's memory address into the formal parameter. Inside the method, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.
+            //To pass the value by reference, the ref keyword is used in both the call and the method definition:
+            
 
             int b = 3;
             //The ref keyword is used both when defining the method and when calling it.
@@ -54,11 +54,19 @@ namespace Methods
             int c;
             passingArguments.ByOutput(out c);
             Console.WriteLine(c);
+            */
+
+            /*
 
             TemperatureCalculator temperatureCalculator = new TemperatureCalculator();
             temperatureCalculator.CalculateTemperature();
+            */
 
 
+            MethodOveloading methodOveloading = new MethodOveloading();
+            methodOveloading.Print();
+            methodOveloading.Print(15);
+            methodOveloading.Print("żaba");
 
 
             Console.ReadKey();
