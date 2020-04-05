@@ -32,13 +32,14 @@ namespace Methods
             Console.WriteLine(multiple.VolumeCalculator(w:4, l:6));
             */
 
-            
+            /*
             PassingArguments passingArguments = new PassingArguments();
 
             //Passing argument by value
             int a = 3;
             passingArguments.ByValue(a);
             Console.WriteLine(a);
+            */
 
             //Passing argument as reference
             /*
@@ -46,18 +47,27 @@ namespace Methods
               * To pass the value by reference, the ref keyword is used in both the call and the method definition:
              */
 
-            int b = 3;
-            //The ref keyword is used both when defining the method and when calling it.
-            passingArguments.ByReference(ref b);
-            Console.WriteLine(b);
 
-            int c;
-            passingArguments.ByOutput(out c);
-            Console.WriteLine(c);
+            /*
+           int b = 3;
+           //The ref keyword is used both when defining the method and when calling it.
+           passingArguments.ByReference(ref b);
+           Console.WriteLine(b);
 
+           int c;
+           passingArguments.ByOutput(out c);
+           Console.WriteLine(c);
+           */
+
+
+            /*
             TemperatureCalculator temperatureCalculator = new TemperatureCalculator();
             temperatureCalculator.CalculateTemperature();
+            */
 
+            Recusition recusition = new Recusition();
+            Console.WriteLine(recusition.FacrorialLoop(5));
+            Console.WriteLine(recusition.FactorialRecusitoon(5));
 
 
 

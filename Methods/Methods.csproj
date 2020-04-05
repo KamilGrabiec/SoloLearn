@@ -49,6 +49,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="NameConvention.cs" />
+    <Compile Include="Recusition.cs" />
     <Compile Include="TemperatureCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
