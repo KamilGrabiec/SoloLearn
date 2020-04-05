@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MethodOveloading.cs" />
     <Compile Include="NamedParameters.cs" />
     <Compile Include="OptionalArguments.cs" />
     <Compile Include="PassingArguments.cs" />

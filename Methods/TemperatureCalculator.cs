@@ -57,11 +57,12 @@ namespace Methods
                     break;
             }
             Console.WriteLine("Would you like to calculate again? [y/n]");
-            if (Console.ReadLine() == "y")
+            string approveOrReject = Console.ReadLine(); 
+            if (approveOrReject == "y")
             {
                 CalculateTemperature();
             }
-            else if (Console.ReadLine() == "n")
+            if (approveOrReject == "n")
             {
                 Console.WriteLine("exit");
             }
