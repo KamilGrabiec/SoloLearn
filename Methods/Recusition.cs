@@ -15,7 +15,6 @@ namespace Methods
             {
                 return 1;
             }
-            //int result = num * FactorialRecusitoon(num - 1);
             return num * FactorialRecusitoon(num - 1);
         }
         
