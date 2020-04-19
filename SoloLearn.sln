@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicConcepts", "SoloLearnBasicConcepts\BasicConcepts.csproj", "{705E37B2-EAEA-4E8A-8B5A-50419338A265}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalsAndLoops", "ConditionalsAndLoops\ConditionalsAndLoops.csproj", "{D87B24E2-64A8-4B3C-86AE-EA5EEF3B2036}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{E6156CB2-B99B-43A0-ABAF-CEEED25168EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{9E69BCBA-D67A-4CFD-BEB2-F4B13D4BDC97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E6156CB2-B99B-43A0-ABAF-CEEED25168EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6156CB2-B99B-43A0-ABAF-CEEED25168EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6156CB2-B99B-43A0-ABAF-CEEED25168EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E69BCBA-D67A-4CFD-BEB2-F4B13D4BDC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E69BCBA-D67A-4CFD-BEB2-F4B13D4BDC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E69BCBA-D67A-4CFD-BEB2-F4B13D4BDC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E69BCBA-D67A-4CFD-BEB2-F4B13D4BDC97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
