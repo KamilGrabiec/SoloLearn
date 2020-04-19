@@ -68,11 +68,11 @@ namespace Methods
             /*
             Recusition recusition = new Recusition();
             Console.WriteLine(recusition.FacrorialLoop(5));
-            Console.WriteLine(recusition.FactorialRecusitoon(5));
+            Console.WriteLine(recusition.FactorialRecusiton(5));
             */
 
             Pyramid pyramid = new Pyramid();
-            pyramid.DrawPyramid(6);
+            pyramid.DrawPyramid(8);
             
                 
             

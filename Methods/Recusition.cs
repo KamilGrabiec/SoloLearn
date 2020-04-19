@@ -9,13 +9,13 @@ namespace Methods
     class Recusition
     {
         
-        public int FactorialRecusitoon(int num)
+        public int FactorialRecusiton(int num)
         {
             if (num == 1)
             {
                 return 1;
             }
-            return num * FactorialRecusitoon(num - 1);
+            return num * FactorialRecusiton(num - 1);
         }
         
 

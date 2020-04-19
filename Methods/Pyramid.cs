@@ -8,15 +8,15 @@ namespace Methods
 {
     class Pyramid
     {
-        public void DrawPyramid(int num)
+        public void DrawPyramid(int pyramidSize)
         {
-            for (int i = 1; i <= num; i++)
+            for (int rowNo = 1; rowNo <= pyramidSize; rowNo++)
             {
-                for (int j=i; j<=num; j++)
+                for (int spaceInRowIncrement=rowNo; spaceInRowIncrement<=pyramidSize; spaceInRowIncrement++)
                 {
                     Console.Write(" ");
                 }
-                for (int k = 1; k<=2*i-1; k++)
+                for (int starsInRowIncrement = 1; starsInRowIncrement<=2*rowNo-1; starsInRowIncrement++)
                 {
                     Console.Write("*");
                 }
