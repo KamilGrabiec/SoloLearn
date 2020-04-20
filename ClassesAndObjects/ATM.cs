@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ClassesAndObjects
 {
-    class BankAccount
+    class ATM
     {
-        int balance = 0;
+        private int balance = 0;
+        public string currency = "PLN";
 
-        public void Deposit()
+        private void Deposit()
         {
             int deposit;
             Console.WriteLine("How much would you like to deposit?");
@@ -19,7 +20,7 @@ namespace ClassesAndObjects
             Continue();
         }
 
-        public void Withdrawal()
+        private void Withdrawal()
         {
             int withdrawal;
             Console.WriteLine("How much would you like to withdraw?");
@@ -28,13 +29,13 @@ namespace ClassesAndObjects
             Continue();
         }
 
-        public void CheckAccountBalance()
+        private void CheckAccountBalance()
         {
-            Console.WriteLine("Your account balance is {0}", balance);
+            Console.WriteLine("Your account balance is {0} {1}", balance, currency);
             Continue();
         }
 
-        public void Continue()
+        private void Continue()
         {
             Console.WriteLine("Would you like to continue? [Y/N]");
             string @continue = Console.ReadLine();
@@ -48,7 +49,7 @@ namespace ClassesAndObjects
             }
         }
 
-        public void NextAction()
+        internal void NextAction()
         {
             Console.WriteLine("What would you like to do?");
             Console.WriteLine("Type 1 to check banalce, 2 to deposit, 3 to withdraw");
