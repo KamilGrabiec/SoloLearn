@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace Methods
 {
     class Program
@@ -73,9 +75,7 @@ namespace Methods
 
             Pyramid pyramid = new Pyramid();
             pyramid.DrawPyramid(6);
-            
-                
-            
+
 
 
             Console.ReadKey();

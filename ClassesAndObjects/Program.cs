@@ -11,7 +11,8 @@ namespace ClassesAndObjects
         static void Main(string[] args)
         {
 
-            BankAccount gosiaAccount = new BankAccount();
+            ATM gosiaAccount = new ATM();
+            gosiaAccount.currency = "USD";
             gosiaAccount.NextAction();
   
         }
