@@ -14,7 +14,7 @@ namespace ArraysAndStrings
         int[] myFirstArray = new int[5];
  
  
-        //Assigne value to inviduale eleent of array arrayname[no of element] = value;
+        //Assigne value to inviduale element of array arrayname[no of element] = value;
         myFirstArray[0] = 5;
         }
 

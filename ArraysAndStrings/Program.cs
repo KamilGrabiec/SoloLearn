@@ -14,10 +14,10 @@ namespace ArraysAndStrings
             p.FirstArray();
             p.PreDefinedArray();
 
+            ArraysAndLoops array = new ArraysAndLoops();
+            array.DisplayArray();
 
-
-
-
+            Console.WriteLine(array.SurfaceList());
 
 
             Console.ReadKey();

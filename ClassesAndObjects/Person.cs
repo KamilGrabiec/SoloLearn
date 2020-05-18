@@ -8,7 +8,6 @@ namespace ClassesAndObjects
 {
     class Person
     {
-        private int age;
         private string name;
         public Person(string nm)
         {
